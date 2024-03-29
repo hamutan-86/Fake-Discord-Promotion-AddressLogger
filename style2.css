@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "ggsansbold";
+  src: url("./gg-sans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "ggsans";
+  src: url("./gg-sans-Regular.ttf");
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(./background.jpeg);
+  background-size: auto 100%; 
+}
+
+#container {
+  background: linear-gradient(180deg, #35393f 0%, #35393f 82%, #2b2d31 82%, #2b2d31 100%);
+  color: #ffffff;
+  text-align: left;
+  align-items: left;
+  align-content: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 30px;
+  padding-bottom: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 4px;
+}
+
+h4 {
+  font-family: "ggsansbold";
+}
+
+#acctxt {
+  font-family: "ggsans";
+  text-align: center;
+  color: lightgray;
+  font-size: 10px;
+}
+
+#btncontainer {
+  text-align: center;
+  padding-top: 25%;
+}
+
+button {
+  background-color: #5865f2;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  font-family: "ggsans";
+  font-size: 12px;
+  padding: 4px 15px;
+}
