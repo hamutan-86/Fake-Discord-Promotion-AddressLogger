@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Discord | Claim Gift</title>
+  <link href="style2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="container">
+    <center>
+      <img src="broke.svg">
+      <h4>おっと！</h4>
+    </center>
+    <div id="acctxt">
+      <p>問題が発生したようです。</p>
+    </div>
+    <div id="btncontainer">
+      <button onclick=btn() id="btn">OK</button>
+    </div>
+  </div>
+  <script>
+    function btn(){
+      var params = window.location.href.split("&")
+      window.location.href = `./index.html?&${params[1]}&${params[2]}&${params[3]}`;
+    }
+  </script>
+</body>
+
+</html>
